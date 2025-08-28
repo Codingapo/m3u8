@@ -1,0 +1,31 @@
+{
+  "name": "m3u8-proxy-server",
+  "version": "1.0.0",
+  "description": "A simple M3U8 proxy server to handle CORS and streaming",
+  "main": "m3u8-proxy-implementation.js",
+  "scripts": {
+    "start": "node m3u8-proxy-implementation.js",
+    "dev": "nodemon m3u8-proxy-implementation.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "m3u8",
+    "proxy",
+    "hls",
+    "streaming",
+    "cors"
+  ],
+  "author": "Custom Player Developer",
+  "license": "MIT"
+}
+
