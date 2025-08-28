@@ -1,21 +1,9 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "m3u8-proxy-implementation.js",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/m3u8-proxy-implementation.js"
     }
-  ],
-  "functions": {
-    "m3u8-proxy-implementation.js": {
-      "maxDuration": 30
-    }
-  }
+  ]
 }
-
